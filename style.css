@@ -1,0 +1,315 @@
+body {
+	background-image: url("Images/Blue_Bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+  }	
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	color: rgb(0, 0, 0);
+	height: 42px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 200px;
+	margin-right: 80px;
+	margin-right: 80px;
+}
+
+.leftdiv{
+	align-items: center;
+	justify-content: space-evenly;
+	display: flex;
+	width: 600px;
+}
+
+.rightdiv{
+	background-image: url("Images/Login_Button_Bg_01.png");
+	background-size: cover;
+	background-position: center;
+	width: 133px;
+	height: 42px;
+	align-items: center;
+	justify-content: space-evenly;
+	display: flex;
+
+	}
+
+#button01{
+		font-family: "sans-serif";
+		background-color: transparent;
+		border: none; 
+		outline: none; 
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	color: rgb(0, 0, 0);
+	height: 1000px;
+	flex-wrap: wrap;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-left: 80px;
+	font-size: x-large;
+}
+
+.colored-text {
+	color: blueviolet;
+  }
+
+
+.headerimage{
+	background-image: url("Images/Why_Kudzoka_Bg.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	padding-top: 20px;
+	margin-top: 50px;
+	position: relative;
+	z-index: 1;
+
+
+}
+
+#redguy{
+	margin-bottom: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+}
+
+#clouds{
+	margin-bottom: -60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 3;
+}
+
+.seconedsection{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	Flex-wrap: wrap;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	height: 1800px;
+	overflow: hidden;
+	background-image: url("images/Second_Section_.png");
+	background-size: cover;
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+
+.div21{
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 200px;
+}
+
+.div211{
+	background-image: url("images/image01.png");
+	background-size: cover;
+	height: 190px;
+	width: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.div22{
+	position: relative;
+	left: 750px;
+	top: 200px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 200px;
+}
+
+.div221{
+	background-image: url("images/image02.png");
+	background-size: cover;
+	height: 190px;
+	width: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.div23{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 200px;
+	height: 480px;
+	top: 1300px;
+	left: -300px;
+	bottom: 0;
+	}
+
+.div231{
+	background-image: url("Images/Why_Kudzoka_Bg.png");
+	background-size: cover;
+	height: 397px;
+	width: 478px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.div24{
+	position: relative;
+	right: 0px;
+	top: 600px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 200px;
+}
+
+.div241{
+	background-image: url("Images/image04.png");
+	background-size: cover;
+	height: 190px;
+	width: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+
+.thirdsection{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	Flex-wrap: wrap;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	height: auto;
+	overflow: hidden;
+}
+
+.div01{
+	height: 265px;
+	width: 247px;
+}
+
+.div02 >img {
+	height: 265px;
+	width: 265px;
+	}
+
+.div03{
+	height: 265px;
+	width: 247px;
+}
+
+.fourthsection{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+h2{
+	position: relative;
+	white-space: nowrap;
+}
+
+footer{
+	background-image: url("Group04.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-right: -10px;
+	margin-left: -10px;
+	margin-top: 0;
+	margin-bottom: 0px;
+	align-content: flex-end;
+	justify-content: space-between;
+	position: relative;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+	clip: rect(50px, 150px, 200px, 50px);
+}
+
+.footerleft{
+	display: flex;
+	width: 500px;
+	height: 300px;
+	flex-direction: column;
+	justify-content: space-around;
+	color: rgb(248, 248, 248);
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 80px;
+}
+
+.footerleft >div{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.smicons{
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactlinks{
+	color: rgb(5, 5, 5);
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerright{
+	background-image: url("images/06.png");
+	background-size: cover;
+	width: 450px;
+	height: 300px;
+	margin-top: 0px;
+	margin-right: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
